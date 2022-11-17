@@ -1,0 +1,24 @@
+.gpt3__blog-container_article{
+    display: flex;
+    flex-direction: column;
+   color: aliceblue; 
+    background: #042C54;
+}
+.gpt3__blog-container_article-img img {
+    flex: 1;
+    max-width: 300px;
+}
+.gpt3__blog-container_article-container-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 200px;
+}
+.gpt3__blog-container_article-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin:1rem 0.25rem ;
+}
